@@ -1,21 +1,10 @@
 <html>
 <head>Check Feedback</head>
 <body>
-Content now....
-	<script type="text/javascript" src="https://assets.freshservice.com/widget/freshwidget.js"></script>
-<style type="text/css" media="screen, projection">
-	@import url(https://assets.freshservice.com/widget/freshwidget.css); 
-</style> 
-<iframe class="freshwidget-embedded-form" id="freshwidget-embedded-form" src="https://amystest.freshservice.com/widgets/feedback_widget/new?&widgetType=embedded&screenshot=no" scrolling="no" height="500px" width="100%" frameborder="0" >
+Content enfiled....
+
+<iframe class="freshwidget-embedded-form" id="freshwidget-embedded-form" src="https://enfield.freshservice.com/support/home" scrolling="no" height="500px" width="100%" frameborder="0" >
 </iframe>
-	
-<script type="text/javascript">
-(function() {
-     var scrpt='jQuery("#feedback-widget-container .modal-body").remove();var footer = jQuery("#feedback-widget-container .modal-footer");jQuery("#feedback-widget-container .modal-panel").toggleClass("modal-panel modal-body");jQuery(footer.html()).insertAfter("#freshwidget-submit-frame");jQuery(footer).remove();';  document.getElementById("freshwidget-embedded-form").onload = function() {
-   console.log("loaded")
-   var ifrmDom = document.getElementById("freshwidget-embedded-form");
-   var ifrm = ifrmDom.contentWindow || ifrmDom.contentDocument;var scriptTag = ifrm.createElement('script'); scriptTag.setAttribute('type', 'text/javascript');scriptTag.innerHTML = scrpt;ifrm.getElementsByTagName('head')[0].appendChild(scriptTag);}
-})();
-</script>
+
 </body>
 </html>
